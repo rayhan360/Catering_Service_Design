@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us - Catering Service</title>
-    <link rel="stylesheet" href="/css/style.css">
-</head>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
+      <div class="container">
+        <div class="logo">
+          <a href="../index.html">Catering Service</a>
+        </div>
         <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-            </ul>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
         </nav>
+        <div class="right-side">
+          <a class="book-now">Book Now</a>
+        </div>
+      </div>
     </header>
     <section id="contact-section">
-        <section id="contact-form">
-            <h2>Contact Form</h2>
-            <form id="contactForm" action="submit_form.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Submit</button>
-            </form>
-        </section>
-        <section id="contact-info">
-           <div>
-            <h2>Contact Information</h2>
-            <p>Address: 123 Catering St, Food City, FC 45678</p>
-            <p>Email: contact@cateringservice.com</p>
-            <p>Phone: (123) 456-7890</p>
-           </div>
-        </section>
+      <section id="contact-form">
+        <h2>Contact Form</h2>
+        <form id="contactForm" action="submit_form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <section id="contact-info">
+        <div>
+          <h2>Contact Information</h2>
+          <p>Address: 123 Catering St, Food City, FC 45678</p>
+          <p>Email: contact@cateringservice.com</p>
+          <p>Phone: (123) 456-7890</p>
+        </div>
+      </section>
     </section>
 
-    <script src="../script/index.js">
-    </script>
-</body>
-
+    <script src="../script/index.js"></script>
+  </body>
 </html>
